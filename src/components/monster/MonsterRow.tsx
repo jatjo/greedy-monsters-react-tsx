@@ -49,7 +49,7 @@ const MonsterRow = ({monster}: {monster: Monster}) => {
     }
 
     return (<tr className={monster.dead ? 'table-danger' : ''}>
-            <td><img src={monsterImage} className={styles.row}/></td>
+            <td><img src={monsterImage} className={styles.row} alt="Image of a monster"/></td>
             <td>{monster.round}</td>
             <td>{monster.fed}</td>
             <td>{monster.stole - monster.stolenFrom}</td>

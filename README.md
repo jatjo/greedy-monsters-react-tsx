@@ -38,7 +38,7 @@ The following parameters can be configured at the start of a game:
 ### Realtime Configuration
 
 As the game is running quite fast without any timedelay between each round,
-it can be configured. By default it is 100ms, but it can be set between 0ms and 1s.
+it can be configured. By default, it is 100ms, but it can be set between 0ms and 1s.
 It can be changed while the game is running.
 
 ![realtimeconfig](doc/realtimeconfig.png)

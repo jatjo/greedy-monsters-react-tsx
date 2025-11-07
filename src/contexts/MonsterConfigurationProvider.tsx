@@ -1,6 +1,7 @@
 import {useCallback, useState} from "react";
 import type { MonsterConfiguration } from "../types/monsterConfiguration.ts";
 import MonsterConfigurationContext from "./MonsterConfigurationContext.tsx";
+import * as React from "react";
 
 type MonsterConfigurationProviderProps = { children: React.ReactNode };
 

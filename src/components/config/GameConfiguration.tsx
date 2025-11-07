@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Accordion from "react-bootstrap/Accordion";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import * as React from "react";
 
 interface GameConfigurationProps {
     delayChangeHandler: (delay: number) => void;

@@ -25,8 +25,6 @@ const useMonsters = () => {
             },
             (_, id: number) => ({...monster, id: ++id})
         ));
-
-        console.log(monster);
     };
 
     const nextRound = (currentRound: number) => {
@@ -47,7 +45,7 @@ const useMonsters = () => {
     };
 
     const gameOver = () => {
-        return monsters.filter(monster => monster.dead === false).length <= 1;
+        return monsters.filter(monster => !monster.dead).length <= 1;
     }
 
     const wakeUp = (monster: Monster, currentRound: number) => {
