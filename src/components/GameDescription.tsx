@@ -1,0 +1,45 @@
+import Accordion from "react-bootstrap/Accordion";
+
+const GameDescription = () => {
+    return (<Accordion>
+        <Accordion.Item eventKey="0">
+            <Accordion.Header>Game Description</Accordion.Header>
+            <Accordion.Body>
+                <p>
+                    Greedy Monsters is a zero-player game in which a set number of monsters compete for
+                    calories.
+                </p>
+                <p>
+                    When a monster has no calories left, it is dead.
+                    The last monster left is the winner of the game.
+                    If no monsters have any calories at the end of a round, no winner can be declared.
+                </p>
+                <p>
+                    Each monster get 5<sup>*</sup> calories at the start of the game.
+                    The monsters will take turns in a round competing for calories.
+                    For each round, the following steps will be performed for each monster:
+                </p>
+
+                <ul>
+                    <li>A monster awakens and consumes one<sup>*</sup> calorie.</li>
+                    <li>It is fed with an arbitrary number of calories between 1 and 3*.</li>
+                    <li>There is a 20%<sup>*</sup> chance that these calories are toxic.
+                        If so, they are subtracted from the monster's calories.
+                    </li>
+                    <li>There is a 50%<sup>*</sup> chance that this monster will steal half the calories of
+                        another sleeping monster. Only one monster can steal for in each round.
+                    </li>
+                    <li>The monster goes back to sleep.</li>
+                </ul>
+
+                <p>
+                    When a new round starts, the monster with the least calories will wake up first.
+                </p>
+
+                <p><i><sup>*</sup> These values can be modified. See Monster Configuration below.</i></p>
+            </Accordion.Body>
+        </Accordion.Item>
+    </Accordion>)
+};
+
+export default GameDescription;
