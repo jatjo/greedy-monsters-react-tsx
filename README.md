@@ -54,5 +54,5 @@ There are 3 buttons to control the game as shown in the image below.
 2. Clone this repository.
 3. Install Node Packages with Dependencies. `npm install`
 4. Start the project. `npm run dev`
-5. Point your browser to: http://localhost:3110/greedyMonsters/
+5. Point your browser to: http://localhost:3110/greedy-monsters-react-tsx/
 
