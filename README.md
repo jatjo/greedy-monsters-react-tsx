@@ -50,9 +50,16 @@ There are 3 buttons to control the game as shown in the image below.
 ![gamecontrols](doc/gamecontrols.png)
 
 ## Getting started
+You can test the game on GitHub pages by using the following link:
+
+https://jatjo.github.io/greedy-monsters-react-tsx/
+
+Or you can install the application manually by following the below steps:
+
 1. Install [Node 22.20](https://nodejs.org/en/download) or later.
 2. Clone this repository.
 3. Install Node Packages with Dependencies. `npm install`
 4. Start the project. `npm run dev`
 5. Point your browser to: http://localhost:3110/greedy-monsters-react-tsx/
+
 
