@@ -50,7 +50,7 @@ There are 3 buttons to control the game as shown in the image below.
 ![gamecontrols](doc/gamecontrols.png)
 
 ## Getting started
-You can test the game on GitHub pages by using the following link:
+You can try the game on GitHub Pages by using the following link:
 
 https://jatjo.github.io/greedy-monsters-react-tsx/
 
